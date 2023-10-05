@@ -1,0 +1,1 @@
+PM> Scaffold-DbContext "Server=.;Database=Maktab97_ShopDb;integrated security=sspi;TrustServerCertificate=True;MultipleActiveResultSets=true;" Microsoft.EntityFrameworkCore.SqlServer -ContextDir "D:\Boot Camp\0.Projects\Eshop-Savariyan-Razavizadeh\App.Infra.Db.SqlServer.EF\DbCtxt" -OutputDir "D:\Boot Camp\0.Projects\Eshop-Savariyan-Razavizadeh\App.Domain.core\Entities"
