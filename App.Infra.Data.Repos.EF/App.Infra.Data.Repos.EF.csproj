@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Cource\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\App.Domain.core\App.Domain.core.csproj" />
   </ItemGroup>
 
