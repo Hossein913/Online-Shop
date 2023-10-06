@@ -11,7 +11,7 @@ namespace App.Domain.core.Datas.EfRipository
     public interface ICategoryRepository
     {
         Task<int> Create(CategoryAddDto category);
-        Task<int> Update(CategoryEditDto category);
+        Task<int> Update(CategoryEditDto categoryDto);
         Task<int> Delete(int categoryId);
         Task<CategoryOutPutDto> GetById(int categoryId);
         Task<List<CategoryOutPutDto>> GetAll();
