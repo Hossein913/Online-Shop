@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.Infra.Data.Repos.EF
 {
-    public class ProductCustomAttribute : IProductCustomAttribute
+    public class ProductInventoryRepository : IProductInventoryRepository
     {
     }
 }

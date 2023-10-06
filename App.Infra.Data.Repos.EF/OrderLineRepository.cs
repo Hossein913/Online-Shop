@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.Infra.Data.Repos.EF
 {
-    public class ProductPrice : IProductPrice
+    public class OrderLineRepository : IOrderStatusRepository
     {
     }
 }

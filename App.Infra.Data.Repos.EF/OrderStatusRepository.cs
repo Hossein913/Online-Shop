@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.Infra.Data.Repos.EF
 {
-    public class CustomAttributeTemplate : ICustomAttributeTemplate
+    public class OrderStatusRepository : IOrderStatusRepository
     {
     }
 }

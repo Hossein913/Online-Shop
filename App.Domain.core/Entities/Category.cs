@@ -12,6 +12,7 @@ public partial class Category
     public int? ParentId { get; set; }
 
     public bool? HasProducts { get; set; }
+    public bool IsRemoved { get; set; } = false;
 
     public virtual ICollection<CustomAttributeTemplate> CustomAttributeTemplates { get; set; } = new List<CustomAttributeTemplate>();
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace App.Domain.core.Datas.EfRipository
 {
-    public interface ICustomAttributeTemplate
+    public interface IOrderStatusRepository
     {
     }
 }
