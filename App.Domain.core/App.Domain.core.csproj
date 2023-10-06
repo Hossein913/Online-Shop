@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AppService\" />
+    <Compile Remove="Enums\**" />
+    <Compile Remove="Providers\**" />
+    <EmbeddedResource Remove="Enums\**" />
+    <EmbeddedResource Remove="Providers\**" />
+    <None Remove="Enums\**" />
+    <None Remove="Providers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Datas\DapperRipository\" />
     <Folder Include="Entities\" />
-    <Folder Include="Enums\" />
-    <Folder Include="Providers\" />
-    <Folder Include="Service\" />
   </ItemGroup>
 
 </Project>

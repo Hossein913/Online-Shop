@@ -25,4 +25,3 @@ namespace App.Domain.core.Dtos.ProductDto
 
 
 }
-}

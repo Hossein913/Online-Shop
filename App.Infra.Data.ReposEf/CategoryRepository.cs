@@ -10,12 +10,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Infra.Data.Repos.EF
+namespace App.Infra.Data.ReposEf
 {
     public class CategoryRepository : ICategoryRepository
     {
 
-
+        
         private readonly Maktab97ShopDbContext _context;
         public CategoryRepository(Maktab97ShopDbContext eshopContext)
         {

@@ -8,7 +8,20 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Domain.AppServices\App.Domain.AppServices.csproj" />
+    <ProjectReference Include="..\App.Domain.core\App.Domain.core.csproj" />
+    <ProjectReference Include="..\App.Domain.Services\App.Domain.Services.csproj" />
+    <ProjectReference Include="..\App.Infra.Data.Repos.Dapper\App.Infra.Data.Repos.Dapper.csproj" />
+    <ProjectReference Include="..\App.Infra.Data.ReposEf\App.Infra.Data.ReposEf.csproj" />
+    <ProjectReference Include="..\App.Infra.Db.SqlServer.EF\App.Infra.Db.SqlServer.EF.csproj" />
   </ItemGroup>
 
 </Project>

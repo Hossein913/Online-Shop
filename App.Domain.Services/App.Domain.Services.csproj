@@ -7,14 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Course\AppService\" />
-    <Folder Include="Course\Datas\DapperRipository\" />
-    <Folder Include="Course\Datas\EfRipository\" />
-    <Folder Include="Course\Dtos\" />
-    <Folder Include="Course\Entities\" />
-    <Folder Include="Course\Enums\" />
-    <Folder Include="Course\Providers\" />
-    <Folder Include="Course\Service\" />
+    <Compile Remove="Course\**" />
+    <EmbeddedResource Remove="Course\**" />
+    <None Remove="Course\**" />
   </ItemGroup>
 
   <ItemGroup>
